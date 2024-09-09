@@ -1,0 +1,38 @@
+.button {
+  width: 220px;
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  border-radius: 16px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 16px;
+  transition: 0.1s ease-in;
+  background: linear-gradient(180deg, #5dc416 0%, #367b05 100%);
+  border: 3px solid #95ff4ba3;
+  box-shadow: 0px 4px 8px 0px #3d93007a;
+  box-shadow: 0px 0px 0px 4px #5bc0143d;
+
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(180deg, #58bd11 0%, #45940e 100%);
+    box-shadow: 0px 4px 8px 0px #3d93007a;
+    box-shadow: 0px 0px 0px 6px #5bc0143d;
+    border: 4px solid #95ff4ba3;
+  }
+  &:active {
+    background: linear-gradient(360deg, #51a814 0%, #368300 100%);
+    border: 2px solid #95ff4b7a;
+    box-shadow: 0px 4px 8px 0px #3d93007a;
+    box-shadow: 0px 0px 0px 4px #5bc0143d;
+  }
+  .icon {
+    margin-right: 8px;
+  }
+}
